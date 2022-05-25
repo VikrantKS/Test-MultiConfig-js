@@ -20,7 +20,7 @@ postMerge :
         postRun:
             command:
               - node --version 
-        nodeVersion : 17.3.1
+              
       - name:  jasmine-reporters
         path : "./jasmine-reporters"
         pattern: 
@@ -34,7 +34,6 @@ postMerge :
         postRun:
             command:
               - node --version 
-        nodeVersion : 17.3.1
         
       
         
