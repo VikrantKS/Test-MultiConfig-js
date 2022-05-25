@@ -21,6 +21,20 @@ postMerge :
             command:
               - node --version 
         nodeVersion : 17.3.1
+      - name:  jasmine-reporters
+        path : "./jasmine-reporters"
+        pattern: 
+          - "./spec/**/*Spec.js"
+        
+        framework : jasmine
+        preRun:
+          command:
+            - npm i
+          
+        postRun:
+            command:
+              - node --version 
+        nodeVersion : 17.3.1
         
       
         
