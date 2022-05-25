@@ -13,7 +13,6 @@ postMerge :
           - "./test/**/*.spec.ts"
         
         framework : mocha
-        runPreRunEveryTime: true
         preRun:
           command:
             - npm ci
